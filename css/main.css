@@ -50,6 +50,7 @@ audio {
 	padding-top: 30px;
 	width: 659px;
 	height: 464px;
+	overflow: hidden;
 }
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	padding-top: 30px;
