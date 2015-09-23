@@ -28,9 +28,14 @@ $(document).ready(function(){
         if (event.which === 88) {
             console.log(event);
             showRyuCool();
+        } 
+    })
+    $(window).keyup(function(event){
+        if (event.which === 88) {
+            console.log(event);
+            hideRyuCool();
         }
     })
-
 
 
 });
@@ -49,9 +54,14 @@ $(document).ready(function(){
 
 function showRyuCool() {
     console.log("function is being called");
-/*    $('.ryu-cool').show(); */
     $('.ryu-throwing').hide();
     $('.ryu-still').hide();
-    $('.ryu-throwing').hide();    
+    $('.ryu-throwing').hide();     
+    $('.ryu-cool').show(); 
 }
-
+function hideRyuCool() {
+    $('.ryu-cool').hide();
+    $('.ryu-throwing').show();
+    $('.ryu-still').show();
+    $('.ryu-throwing').show();     
+}

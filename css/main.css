@@ -51,7 +51,7 @@ audio {
 	width: 659px;
 	height: 464px;
 }
-.ryu-ready, .ryu-still, .ryu-throwing .ryu-cool {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	padding-top: 30px;
 	width: 659px;
 	height: 464px;
@@ -88,7 +88,7 @@ audio {
 	-webkit-transform: scale(0.9, 0.9);	
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing .ryu-cool {
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
 	transform: scale(0.9, 0.9);
 	-ms-transform: scale(0.9, 0.9);
