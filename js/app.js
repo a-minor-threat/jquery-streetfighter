@@ -23,7 +23,8 @@ $(document).ready(function(){
     .mouseup(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
-    });    
+    });  
+
 
 });
 
@@ -36,5 +37,18 @@ function playHadouken() {
 $(document).ready(function(){
     $('.instructions').hide();
     $('.sf-logo').delay(3000).fadeOut(1500);
-    $('.instructions').delay(4000).fadeIn("slow");
+    $('.instructions').delay(4000).fadeIn();
 });
+
+$(document).ready(function(){
+  $('.ryu-cool').keydown(function(event){ 
+    if (event.which === 88) {
+        console.log(event);
+        $(this).show();
+        $('.ryu-throwing').hide();
+        $('.ryu-still').hide();
+        $('.ryu-throwing').hide();
+    }
+  });  
+});
+
