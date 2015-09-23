@@ -7,6 +7,9 @@ body {
 	outline: red 1px solid;
 }
 */
+audio {
+	display:none;
+}
 .sf-logo {
 	top: 200px;
 	right: 10px;
@@ -77,7 +80,7 @@ body {
 	position: absolute;
 	z-index: 10;
 	top: 167px;
-	left: 520px;
+	left: 420px;
 	float: left;
 }
 footer {
