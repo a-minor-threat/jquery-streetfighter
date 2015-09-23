@@ -7,6 +7,10 @@ body {
 	outline: red 1px solid;
 }
 */
+@font-face {
+	font-family: press-start;
+	src: url('../font/PressStart2P.ttf');
+}
 .instructions {
   background:#7f7f7f;
   background:rgba(0,0,0,0.5);
@@ -18,7 +22,7 @@ body {
 .instructions p {
 	width: 400px;
 	color: white;
-
+	font-family: press-start;
 
 }
 audio {

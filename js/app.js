@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('.hadouken').hide();
     $('.ryu').mouseenter(function(){
         $('.ryu-still').hide();
         $('.ryu-ready').show();
@@ -33,5 +34,7 @@ function playHadouken() {
     }
 
 $(document).ready(function(){
+    $('.instructions').hide();
     $('.sf-logo').delay(3000).fadeOut(1500);
+    $('.instructions').delay(4000).fadeIn("slow");
 });
