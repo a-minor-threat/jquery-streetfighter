@@ -2,11 +2,14 @@ body {
 	background-color: black;
 }
 
+/*
 *{
 	outline: red 1px solid;
 }
+*/
 .sf-logo {
-	margin-right: 200px;
+	top: 200px;
+	right: 10px;
 	position: absolute;
 	z-index: 2;
 }
