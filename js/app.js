@@ -4,12 +4,6 @@ $(document).ready(function(){
         $('.ryu-still').hide();
         $('.ryu-ready').show();
     })
-    $(window).keydown(function(event){
-        if (event.which === 88) {
-            console.log(event);
-            showRyuCool();
-        }
-    })
     .mouseleave(function() {
         $('.ryu-still').show();
         $('.ryu-ready').hide();
@@ -30,6 +24,12 @@ $(document).ready(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
     });  
+    $(window).keydown(function(event){
+        if (event.which === 88) {
+            console.log(event);
+            showRyuCool();
+        }
+    })
 
 
 
@@ -48,7 +48,8 @@ $(document).ready(function(){
 });
 
 function showRyuCool() {
-    $('.ryu-cool').show();
+    console.log("function is being called");
+/*    $('.ryu-cool').show(); */
     $('.ryu-throwing').hide();
     $('.ryu-still').hide();
     $('.ryu-throwing').hide();    
