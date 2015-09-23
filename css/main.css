@@ -7,6 +7,20 @@ body {
 	outline: red 1px solid;
 }
 */
+.instructions {
+  background:#7f7f7f;
+  background:rgba(0,0,0,0.5);
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    z-index: 2;
+}
+.instructions p {
+	width: 400px;
+	color: white;
+
+
+}
 audio {
 	display:none;
 }
