@@ -58,7 +58,7 @@ audio {
 	height: 464px;
 }
 
-.ryu-ready, .ryu-throwing .ryu-cool {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 
